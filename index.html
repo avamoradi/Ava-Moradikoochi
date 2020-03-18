@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - HYF Assignment </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+<title>Yummy!</title>
+</head>
+  
+<body>
+ <!--Header-->
+  <div id ='header'>
+    <h1>Yummy </h1>
+    <div class="topnav">
+  <a href="#soupsalad">Soup&Salad</a>
+  <a href="#meal">Meal</a>
+  <a href="#dessert">Dessert</a>
+   </div>
+    
+        <!--login-->
+    <div id="popup">
+     <label for="uname" >Username:</label><input type="text" placeholder="Enter your email" name="uname required"><br>
+    <label for="psw"> Password:</label><input type="password" placeholder="Enter Password"><br>
+   <button type="submit" class="submit" onclick="functionAlert()">Login</button>
+  </div>
+  <div id="backgroundOverlay"></div>
+  <input type="button" id="openDiv" value="Login">
+ </div>
+  
+  
+  <!-- photo in head of page and welcome note-->
+  <div id="foodimg">
+    <div id="welcomeNote">
+      <h2>Welcome to Yummy!<br> delicious recipes for foodies</h2>
+    </div>
+  </div>
+  
+   <!--Soup&Sala row-->
+  <div id ="soupsalad" class="row">
+    <h3>Soup&Salad</h3>
+    
+     <a class="newpage" target="_blank" href="https://thecozyapron.com/cucumber-salad/">
+      <div class="column">
+       <div class="card tooltip" >
+        <img src="https://thecozyapron.com/wp-content/uploads/2018/07/cucumber-salad_thecozyapron_1.jpg" alt="Cucumber Salad" style="width:100%;height:90%">
+        <div class="container">
+          <h4>Cucumber Salad | The Cozy Apron</h4>
+          <span class="tooltiptext">15 minutes · Vegetarian Gluten free · Serves 6 · This cucumber salad is cool and crisp, loaded with delicious add-ins, and dressed simply with good olive oil, lemon juice, and sea salt!</span>
+        </div>
+      </div>
+    </div>
+  </a>
+  
+  <a class="newpage" target="_blank" href="https://www.31daily.com/tuscan-bean-soup/">
+  <div class="column">
+      <div class="card tooltip">
+        <img src="https://www.hikendip.com/wp-content/uploads/2019/08/Classic-Ribollita-Tuscan-Beef-Soup-By-31-Daily.jpg" alt="Bean soup" style="width:100%;height:90%">
+        <div class="container">
+        <h4>A Classic Ribollita: Tuscan Bean Soup</h4>
+        <span class="tooltiptext">Tuscan Bean Soup, is a 15th-century soup, brimming with seasonal healthy superfoods like kale and squash. And incredibly soul satisfying and delicious!</span>
+        </div>
+      </div>
+    </div>
+  </a>
+  
+  
+    <div class="column">
+       <div class="card tooltip" >
+         <a data-pin-do="embedPin" data-pin-width="medium" href="https://www.pinterest.com/pin/711005859909263039/"></a>
+          <div class="container">
+        <span class="tooltiptext">Smoked Aubergine & Pepper Salad<br>
+here's a great hack for getting that true smokey flavour in our aubergine salad!</span>
+            </div>
+          </div>
+      </div>
+   </div>
+  
+<!-- Meal row -->
+  <div id="meal" class ="row">
+    <h3>Meal</h3>
+    
+    <a class="newpage" target="_blank" href="https://realfood.tesco.com/recipes/aloo-gobi-traybake.html">
+     <div class= "column">
+      <div class="card tooltip">
+        <img src="https://realfood.tesco.com/media/images/RFO-1400x919-Aloo-gobi-traybake-3d37a93d-8464-44e1-af9c-4d5644d979d4-0-1400x919.jpg" alt="Aloo gobi traybake" style="width:100%;height:90%">
+        <div class="container">
+          <h4>Aloo gobi traybake </h4>
+          <span class="tooltiptext">40 minutes · Serves 2 · In this delicious dinner idea for two, we've taken the classic flavours of aloo gobi and reinvented them as a tasty traybake recipe</span>
+           </div>
+         </div>
+      </div>
+   </a>
+    
+<a class="newpage" target="_blank" href="https://southernbite.com/sheet-pan-lemon-chicken/">
+    <div class= "column">
+      <div class="card tooltip" >
+        <img src="https://southernbite.com/wp-content/uploads/2017/05/Sheet-Pan-Lemon-Chicken.jpg" alt="Lemon chicken" style="width:100%;height:90%;">
+        <div class="container">
+          <h4>Sheet Pan Lemon Chicken</h4>
+          <span class="tooltiptext">40 minutes · Gluten free · Serves 4 · This Sheet Pan Lemon Chicken is an amazing one-pan meal that your family will love. It's a simple recipe with just a few ingredients </span>
+        </div>
+      </div>
+    </div>
+</a>
+
+<div class="column">
+       <div class="card tooltip" >
+         <a data-pin-do="embedPin" data-pin-width="medium" href="https://www.pinterest.com/pin/359936195221386746/"></a>
+          <div class="container">
+             <span class="tooltiptext">Easy homemade healthy ramen bowls</span>
+            </div>
+          </div>
+      </div>
+  </div>
+  
+<!-- Desert row-->
+  <div id = "dessert" class="row">
+    <h3>Dessert</h3>
+    
+    <a class="newpage" target="_blank" href="https://www.closetcooking.com/sticky-toffee-pudding/">
+    <div class="column">
+      <div class="card tooltip">
+        <img src="https://www.melskitchencafe.com/wp-content/uploads/sticky-toffee-pudding2.jpg" alt="banana split"  style="width:100%;height:90%">
+        <div class="container">
+          <h4>Sticky Toffee Pudding</h4>
+          <span class="tooltiptext">Cooking Delicious - Sticky toffee pudding is essentially a rich, moist cake permeated with a thick caramel-like sauce.</span>
+       </div>
+     </div>
+   </div>
+ </a>
+  
+<a class="newpage" target="_blank" href="https://www.cookingclassy.com/black-forest-cheesecake-cupcakes/">  
+<div class="column">
+      <div class="card tooltip">
+        <img src="https://lh4.ggpht.com/t559t-RFZvNlVVyvdxf5t_sXK92UoP2b1joDQ8T4y7yJMlSN2bs6Z_3MM51zarJ62CbHo8BQiGpcu18Azl6w=s640-c-rw-v1-e365" alt="Cheesecake" style="width:100%;height:90%">
+      <div class="container">
+        <h4>Black Forest Cheesecake Cupcakes</h4>
+        <span class="tooltiptext">Black Forest Cupcakes recipe deep chocolate sponge topped with whipped mascarpone frosting dark cherries in syrup. Ideal for Dessert Parties Afternoon Tea.
+</span>
+       </div>
+     </div>
+   </div>
+</a>
+
+<div class="column">
+       <div class="card tooltip " >
+         <a data-pin-do="embedPin" data-pin-width="medium" href="https://www.pinterest.com/pin/332351647503388495/"></a>
+          <div class="container">
+        <span class="tooltiptext">Need a quick #dessert that feeds a crowd? This fool-proof #Chocolate Trifle is here to save the day. </span>
+            </div>
+          </div>
+      </div>
+  </div>
+
+   
+<!-- youtube video-->
+<div id = "youtubevideo">
+   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8EJ3zbKTWQ8"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div>
+ 
+<!-- for embeded pinterest videos-->
+<script  async src="//assets.pinterest.com/js/pinit.js"></script>
+
+<!--Footer-->
+  <footer>
+    <div id="copyright">
+      <p>Copyright @ 2020</p>
+    </div>
+    <div id="privacy">
+     <a>Terms</a>
+      <a>Privacy Policy and Cookie Policy</a>
+   </div>
+  </footer>
+ </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
